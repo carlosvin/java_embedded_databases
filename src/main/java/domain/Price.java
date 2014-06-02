@@ -65,6 +65,17 @@ public class Price {
 		return builder.toString();
 	}
 
+	private static Price create(int instr, int numberOfUpdates) {
+		Price p = new Price("Market " + (instr % 100), "Instrument " + instr);
+		p.date.setTime(numberOfUpdates);
+		p.price = instr + 1.1;
+		return p;
+	}
+
+	public static Price create(int i) {
+		return Price.create(i, n++);
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -115,21 +126,6 @@ public class Price {
 			return false;
 		}
 		return true;
-	}
-
-	public double updatePrice() {
-		return price++;
-	}
-
-	public static Price create(int instr, int numberOfUpdates) {
-		Price p = new Price("Market " + (instr % 100), "Instrument " + instr);
-		p.date.setTime(numberOfUpdates);
-		p.price = instr + 1.1;
-		return p;
-	}
-
-	public static Price create(int i) {
-		return Price.create(i, n++);
 	}
 
 }

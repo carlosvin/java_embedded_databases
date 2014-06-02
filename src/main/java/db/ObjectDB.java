@@ -58,7 +58,7 @@ public class ObjectDB implements DB {
 	public void update(Price... prices) {
 		em.getTransaction().begin();
 		for (Price p : selectAll()) {
-			p.updatePrice();
+			em.refresh(p);
 		}
 		em.getTransaction().commit();
 	}

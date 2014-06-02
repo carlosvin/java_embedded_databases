@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: Java Embebded Databases : Performance Comparisso
+ n
+Implementation-Version: 1.0
+
