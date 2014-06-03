@@ -12,4 +12,4 @@
 hs_err_pid*
 /bin
 /derby.log
-.gradle
+/.gradle
