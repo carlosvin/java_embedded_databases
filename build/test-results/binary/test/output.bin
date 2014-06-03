@@ -1,24 +1,21 @@
-Testing with 1 elements
-4java.sql.SQLException: table PRICES already exists
-&1 Prices SqliteDB, total time 141 ms
-	Insert:	 115 ms
-	Select:	 1 ms
-	Update:	 7 ms
-	Delete:	 18 ms
-0----------------------------------------------
-Testing with 1 elements
-&1 Prices ObjectDB, total time 108 ms
-	Insert:	 18 ms
-	Select:	 88 ms
-	Update:	 1 ms
-	Delete:	 1 ms
-0----------------------------------------------
-Testing with 1 elements
-4java.sql.SQLException: Schema 'ME' already exists.
-Kjava.sql.SQLException: Table/View 'PRICES' already exists in Schema 'ME'.
-%1 Prices DerbyDB, total time 288 ms
-	Insert:	 200 ms
-	Select:	 40 ms
-	Update:	 36 ms
-	Delete:	 12 ms
-0----------------------------------------------
+Testing with 1 elements
+%1 Prices SqliteDB, total time 237 ms
+	Insert:	 104 ms
+	Select:	 0 ms
+	Update:	 67 ms
+	Delete:	 66 ms
+/----------------------------------------------
+Testing with 1 elements
+$1 Prices ObjectDB, total time 70 ms
+	Insert:	 30 ms
+	Select:	 39 ms
+	Update:	 0 ms
+	Delete:	 1 ms
+/----------------------------------------------
+Testing with 1 elements
+$1 Prices DerbyDB, total time 188 ms
+	Insert:	 77 ms
+	Select:	 17 ms
+	Update:	 83 ms
+	Delete:	 11 ms
+/----------------------------------------------

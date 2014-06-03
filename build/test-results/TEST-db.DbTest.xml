@@ -1,32 +1,29 @@
-<?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="db.DbTest" tests="3" failures="0" errors="0" timestamp="2014-06-02T11:35:52" hostname="IS28925X516031P" time="2.377">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="db.DbTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2014-06-03T18:36:27" hostname="localhost" time="13.323">
   <properties/>
-  <testcase name="testSqliteDB" classname="db.DbTest" time="0.336"/>
-  <testcase name="testObjectDB" classname="db.DbTest" time="0.621"/>
-  <testcase name="testDerbyDB" classname="db.DbTest" time="1.419"/>
+  <testcase name="testSqliteDB" classname="db.DbTest" time="0.442"/>
+  <testcase name="testObjectDB" classname="db.DbTest" time="0.347"/>
+  <testcase name="testDerbyDB" classname="db.DbTest" time="12.533"/>
   <system-out><![CDATA[Testing with 1 elements
-java.sql.SQLException: table PRICES already exists
-1 Prices SqliteDB, total time 141 ms
-	Insert:	 115 ms
-	Select:	 1 ms
-	Update:	 7 ms
-	Delete:	 18 ms
+1 Prices SqliteDB, total time 237 ms
+	Insert:	 104 ms
+	Select:	 0 ms
+	Update:	 67 ms
+	Delete:	 66 ms
 ----------------------------------------------
 Testing with 1 elements
-1 Prices ObjectDB, total time 108 ms
-	Insert:	 18 ms
-	Select:	 88 ms
-	Update:	 1 ms
+1 Prices ObjectDB, total time 70 ms
+	Insert:	 30 ms
+	Select:	 39 ms
+	Update:	 0 ms
 	Delete:	 1 ms
 ----------------------------------------------
 Testing with 1 elements
-java.sql.SQLException: Schema 'ME' already exists.
-java.sql.SQLException: Table/View 'PRICES' already exists in Schema 'ME'.
-1 Prices DerbyDB, total time 288 ms
-	Insert:	 200 ms
-	Select:	 40 ms
-	Update:	 36 ms
-	Delete:	 12 ms
+1 Prices DerbyDB, total time 188 ms
+	Insert:	 77 ms
+	Select:	 17 ms
+	Update:	 83 ms
+	Delete:	 11 ms
 ----------------------------------------------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
