@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="db.DbTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2014-06-03T20:10:36" hostname="localhost" time="5.54">
+  <properties/>
+  <testcase name="testSqliteDB" classname="db.DbTest" time="0.462"/>
+  <testcase name="testObjectDB" classname="db.DbTest" time="3.753"/>
+  <testcase name="testDerbyDB" classname="db.DbTest" time="1.324"/>
+  <system-out><![CDATA[Testing with 1 elements
+java.sql.SQLException: table PRICES already exists
+1 Prices SqliteDB, total time 325 ms
+	Insert:	 125 ms
+	Select:	 0 ms
+	Update:	 100 ms
+	Delete:	 100 ms
+----------------------------------------------
+Testing with 1 elements
+1 Prices ObjectDB, total time 56 ms
+	Insert:	 11 ms
+	Select:	 44 ms
+	Update:	 0 ms
+	Delete:	 1 ms
+----------------------------------------------
+Testing with 1 elements
+java.sql.SQLException: Schema 'ME' already exists.
+java.sql.SQLException: Table/View 'PRICES' already exists in Schema 'ME'.
+1 Prices DerbyDB, total time 154 ms
+	Insert:	 87 ms
+	Select:	 20 ms
+	Update:	 36 ms
+	Delete:	 11 ms
+----------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
