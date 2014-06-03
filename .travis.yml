@@ -2,7 +2,7 @@ language: java
 
 env:
   global:
-    - secure: "XIFhXe/p4FvAThahDmav02ORxC/gyNzv/hntQsNvUic7j+h+0GPhjzN+m6wXN163RGbdwhxJYzDxZTsOC7F5WkhqecQeBVJAQQTgHuUd8DSeGqosf5XNO6jYjnqoJaDrdyY3CGucEP0Kmtrb38ORCKalT2/3OJMxriw1ModoEKg="
+    - secure: "pKUFp5gGidadbrNDwPvsjkZBMbEDuJfsi+kyegooTF4Mv2Snp6mfDwaL3CQtDV/kMTtTyQ65lqK3AmfyTzHJFj2ujBwQxcnJp1Dj1dS1HRfFnGiYsC71IXUyH1wLbY65/U0d2Y/59QIEAnW8AsB+bb62SNEwbj19Qv57ku5F0oY="
     
 jdk:
   - oraclejdk7
@@ -11,8 +11,8 @@ before_install:
   - sudo apt-get update && sudo apt-get --reinstall install -qq language-pack-en language-pack-es
 
 install:
-  - git config --global user.email "carlosvin@gmail.com"
-  - git config --global user.name "carlosvin"
+  - git config --global user.email $GIT_EMAIL
+  - git config --global user.name $GIT_NAME
 
 script:
   - gradle --profile test check
