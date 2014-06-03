@@ -14,3 +14,4 @@ hs_err_pid*
 /derby.log
 /.gradle
 /dbs
+build/resources/
