@@ -15,7 +15,7 @@ install:
   - git config --global user.name $GIT_NAME
 
 script:
-  - gradle --profile test check
+  - gradle test
   - git clone --branch=gh-pages https://$GH_TOKEN@github.com/carlosvin/serializations-performance-java.git output
   - cd output
   - rm -rf reports
