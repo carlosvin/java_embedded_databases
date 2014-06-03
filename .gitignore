@@ -14,3 +14,7 @@ hs_err_pid*
 /derby.log
 /.gradle
 /dbs
+build
+dbs/
+derby.log
+. .. .classpath .directory .git .gitignore .gradle .project .settings .travis.yml
