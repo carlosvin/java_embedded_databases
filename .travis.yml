@@ -6,9 +6,6 @@ env:
     
 jdk:
   - oraclejdk7
-   
-before_install:
-  - sudo apt-get update && sudo apt-get --reinstall install -qq language-pack-en language-pack-es
 
 install:
   - git config --global user.email $GIT_EMAIL
