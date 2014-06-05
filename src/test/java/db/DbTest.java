@@ -19,7 +19,7 @@ import domain.Price;
 
 public class DbTest {
 
-	private static final int MAX_PRICES = 1;
+	private static final int MAX_PRICES = 100000;
 	private static final String FOLDER = "dbs";
 	private final Set<Price> pricesIn = new HashSet<Price>();
 	private final Price[] pricesInUpdate = new Price[MAX_PRICES];
