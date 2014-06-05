@@ -2,7 +2,7 @@ language: java
 
 env:
   global:
-    - secure: "Ta9BR1H1EmB0nfWw2Egqq1LQd4Bp8c7RA1qQNicsenezlkm50JAUJMrtt0MJ9MY+ay1tKKUOcSTv2dU67kd1jhzW1USjvSQKzoFjlTZPvVUynzkN1Wq4FwOXcLVoOLHcU6Gf3sRCUNkQCRsdTL5VO6kV2IRWvGD/CGPNnwMSexc="
+    - secure: "hkZlG9/dNCrgCVi1zVkNOHh5Eu8gnnAbYMISHifw4NFGSS3FSdzIGWbLXmQlB6TR9UtcwEMlbBc5zvZolMWXJxDSYWrExhLgoDj2nUD2LVk7S4rrFqJVN9nLMhkkpy0pIoqALK/Mqx/61MTAKuKLSIWQkFYlnldFOUngE4Ir9OU="
 
 jdk:
   - oraclejdk7
@@ -13,7 +13,7 @@ install:
 
 script:
   - gradle test
-  - git clone --branch=gh-pages https://6bf97cab1cb0ca6daa8221d65a04fe90ef8ca977@github.com/carlosvin/java_embedded_databases output
+  - git clone --branch=gh-pages https://$GH_TOKEN@github.com/carlosvin/java_embedded_databases output
   - rm -rf output/build/*
   - mv -f build/reports build/test-results build/resources output/build
   - cd output
