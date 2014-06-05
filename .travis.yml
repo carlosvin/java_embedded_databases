@@ -14,6 +14,7 @@ install:
 script:
   - gradle test
   - git clone --branch=gh-pages https://$GH_TOKEN@github.com/carlosvin/java_embedded_databases output
+  - rm -rf output/build/*
   - mv -f build/reports build/test-results build/resources output/build
   - cd output
   - git add .
