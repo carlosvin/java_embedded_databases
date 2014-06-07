@@ -20,6 +20,6 @@ script:
   - mv gradlew* output
   - cd output
   - git add .
-  - git . commit -m "updating reports"
+  - git commit . -m "updating reports"
   - git push origin gh-pages
 
