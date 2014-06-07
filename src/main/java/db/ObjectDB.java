@@ -30,7 +30,7 @@ public class ObjectDB implements DB {
 			em.persist(p);
 		}
 		em.getTransaction().commit();
-		em.clear();
+	//	em.clear();
 
 	}
 
