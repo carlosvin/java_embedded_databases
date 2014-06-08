@@ -12,7 +12,6 @@
 hs_err_pid*
 /bin
 /derby.log
-/.gradle
 /dbs
 dbs/
 derby.log
