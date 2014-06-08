@@ -22,4 +22,3 @@ script:
   - git add .
   - git commit . -m "updating reports"
   - git push origin gh-pages
-
