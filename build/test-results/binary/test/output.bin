@@ -1,21 +1,21 @@
 Testing with 100000 elements
-+100000 Prices SqliteDB, total time 4096 ms
-	Insert:	 1772 ms
-	Select:	 757 ms
-	Update:	 1537 ms
-	Delete:	 30 ms
++100000 Prices SqliteDB, total time 3559 ms
+	Insert:	 1476 ms
+	Select:	 675 ms
+	Update:	 1377 ms
+	Delete:	 31 ms
 /----------------------------------------------
 Testing with 100000 elements
-+100000 Prices ObjectDB, total time 7475 ms
-	Insert:	 3061 ms
-	Select:	 1287 ms
-	Update:	 1807 ms
-	Delete:	 1320 ms
++100000 Prices ObjectDB, total time 6346 ms
+	Insert:	 2560 ms
+	Select:	 1055 ms
+	Update:	 1637 ms
+	Delete:	 1094 ms
 /----------------------------------------------
 Testing with 100000 elements
-+100000 Prices DerbyDB, total time 30152 ms
-	Insert:	 12522 ms
-	Select:	 729 ms
-	Update:	 7254 ms
-	Delete:	 9647 ms
++100000 Prices DerbyDB, total time 22992 ms
+	Insert:	 10799 ms
+	Select:	 701 ms
+	Update:	 5928 ms
+	Delete:	 5564 ms
 /----------------------------------------------
