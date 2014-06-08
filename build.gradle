@@ -4,6 +4,10 @@ apply plugin: 'eclipse'
 sourceCompatibility = 1.7
 version = '1.0'
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.12'
+}
+
 jar {
 	manifest {
 		attributes 'Implementation-Title': 'Java Embebded Databases : Performance Comparisson', 'Implementation-Version': version
