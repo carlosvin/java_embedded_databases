@@ -1,29 +1,29 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="db.DbTest" tests="3" failures="0" errors="0" timestamp="2014-06-07T18:51:30" hostname="testing-worker-linux-7-2-14978-linux-14-27028869" time="66.71">
+<testsuite name="db.DbTest" tests="3" failures="0" errors="0" timestamp="2014-06-07T18:59:38" hostname="testing-worker-linux-4-2-30364-linux-4-27029188" time="50.298">
   <properties/>
-  <testcase name="testSqliteDB" classname="db.DbTest" time="5.328"/>
-  <testcase name="testObjectDB" classname="db.DbTest" time="9.578"/>
-  <testcase name="testDerbyDB" classname="db.DbTest" time="51.799"/>
+  <testcase name="testSqliteDB" classname="db.DbTest" time="4.956"/>
+  <testcase name="testObjectDB" classname="db.DbTest" time="8.549"/>
+  <testcase name="testDerbyDB" classname="db.DbTest" time="36.79"/>
   <system-out><![CDATA[Testing with 100000 elements
-100000 Prices SqliteDB, total time 4695 ms
-	Insert:	 1983 ms
-	Select:	 764 ms
-	Update:	 1907 ms
-	Delete:	 41 ms
+100000 Prices SqliteDB, total time 4405 ms
+	Insert:	 1796 ms
+	Select:	 740 ms
+	Update:	 1824 ms
+	Delete:	 45 ms
 ----------------------------------------------
 Testing with 100000 elements
-100000 Prices ObjectDB, total time 8900 ms
-	Insert:	 3356 ms
-	Select:	 1932 ms
-	Update:	 2137 ms
-	Delete:	 1475 ms
+100000 Prices ObjectDB, total time 7958 ms
+	Insert:	 3164 ms
+	Select:	 1465 ms
+	Update:	 1977 ms
+	Delete:	 1352 ms
 ----------------------------------------------
 Testing with 100000 elements
-100000 Prices DerbyDB, total time 47988 ms
-	Insert:	 17484 ms
-	Select:	 856 ms
-	Update:	 18366 ms
-	Delete:	 11282 ms
+100000 Prices DerbyDB, total time 33828 ms
+	Insert:	 17718 ms
+	Select:	 938 ms
+	Update:	 7947 ms
+	Delete:	 7225 ms
 ----------------------------------------------
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
